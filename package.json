@@ -1,0 +1,27 @@
+{
+  "name": "lz4-offset-stream",
+  "version": "1.0.0",
+  "description": "Stream that emits offsets of lz4 encoded payloads",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --100"
+  },
+  "release": {
+    "extends": "@evanlucas/semrel"
+  },
+  "homepage": "https://github.com/evanlucas/lz4-offset-stream",
+  "bugs": {
+    "url": "https://github.com/evanlucas/lz4-offset-stream/issues"
+  },
+  "keywords": [],
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/evanlucas/lz4-offset-stream"
+  },
+  "devDependencies": {
+    "lz4": "^0.6.5",
+    "tap": "^15.0.9"
+  }
+}

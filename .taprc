@@ -1,0 +1,11 @@
+ts: false
+jsx: false
+nyc-arg:
+- --all
+coverage-report:
+- text
+- text-summary
+- json
+- json-summary
+- html
+100: true
