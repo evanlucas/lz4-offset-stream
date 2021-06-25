@@ -1,6 +1,6 @@
 {
   "name": "lz4-offset-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stream that emits offsets of lz4 encoded payloads",
   "main": "index.js",
   "scripts": {
